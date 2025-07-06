@@ -18,6 +18,10 @@ public class Client {
 
     }
 
+    public void addAccount (BankAccount account) {
+        accounts.add(account);
+    }
+
     public boolean authenticate (String inputPin) {
         return this.pin.equals(inputPin);
     }
